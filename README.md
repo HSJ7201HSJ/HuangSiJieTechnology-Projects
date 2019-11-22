@@ -6,9 +6,11 @@ HuangSiJieTechnology
 using namespace std;
 int main()
 {
-  string HTSPS = "HuangSiJieTechnology\ns\nProjects";
+  string HTSPS = "HuangSiJieTechnology\ns\nProjects\nGitHub\nHttps://GitHub.COM/HuangSiJieTechnology";
   short L , C;
-  L = 30;
+  L = HTSPS.length();
+  system("title HuangSiJieTechnology s Projects GitHub Https://GitHub.COM/HuangSiJieTechnology");
+  usleep(123456);
   system("title H");
   usleep(123456);
   system("title Hu");
@@ -67,6 +69,94 @@ int main()
   usleep(123456);
   system("title HuangSiJieTechnology s Projects");
   usleep(123456);
+  system("title HuangSiJieTechnology s Projects G");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects Gi");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects Git");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitH");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHu");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub H");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Ht");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Htt");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http:");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http:/");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://G");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://Gi");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://Git");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitH");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHu");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.C");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.CO");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/H");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/Hu");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/Hua");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/Huan");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/Huang");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangS");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSi");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJ");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJi");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJie");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieT");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTe");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTec");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTech");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTechn");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTechno");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTechnol");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTechnolo");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTechnolog");
+  usleep(123456);
+  system("title HuangSiJieTechnology s Projects GitHub Http://GitHub.COM/HuangSiJieTechnology");
+  usleep(123456);
   for(C = 0;C <= L - 1;C++)
   {
     cout << HTSPS[C];
@@ -79,8 +169,13 @@ do
 msgbox"HuangSiJieTechnology"
 msgbox"s"
 msgbox"Projects"
+msgbox"GitHub"
+msgbox"Https://GitHub.COM/HuangSiJieTechnology"
 loop
 ----------------Windows Cmd----------------
+title HuangSiJieTechnology s Projects GitHub Https://GitHub.COM/HuangSiJieTechnology
 echo HuangSiJieTechnology
 echo s
 echo Projects
+echo GitHub
+echo Https://GitHub.COM/HuangSiJieTechnology

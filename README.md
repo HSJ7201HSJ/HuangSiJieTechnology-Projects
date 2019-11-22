@@ -19,7 +19,7 @@ int main()
   usleep(123456);
   system("title Huang");
   usleep(123456);
-  system("title HuangS);
+  system("title HuangS");
   usleep(123456);
   system("title HuangSi");
   usleep(123456);

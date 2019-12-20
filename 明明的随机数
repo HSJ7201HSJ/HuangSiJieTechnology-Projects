@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+set <long long> S;
+long long A[102];
+int main()
+{
+    long long N , I;
+    cin >> N;
+    for(I = 0;I <= N - 1;I++)
+    {
+        cin >> A[I];
+        S.insert(A[I]);
+    }
+    cout << S.size() << endl;
+    while(!S.empty())
+    {
+        cout << *S.begin() << " " ;
+        S.erase(S.begin()); 
+    }
+    return 0;
+ }

@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	string S;
+	long long AZazN = 0 , NN = 0 , EN = 0 , ON = 0;
+	getline(cin , S);
+	short I;
+	for(I = 0;I <= S.length() - 1;I++)
+	{
+		if(S[I] >= 'a' && S[I] <= 'z' || S[I] >= 'A' && S[I] <= 'Z') AZazN++;
+		else if(S[I] == ' ') EN++;
+		else if(S[I] >= '0' && S[I] <= '9') NN++;
+		else ON++;
+	}
+	cout << "字母数量:" << AZazN << " 数字数量:" << NN << " 空格数量:" << EN << " 其他字符数量:" << ON;
+	return 0;
+}

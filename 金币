@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    long long K = 0 , N = 0 , C = 0;
+    cin >> K;
+    for(N = 1;K - N >= 0;K -= N++)
+    {
+    	C += N * N;
+	} 
+    cout << C + K * N;
+    return 0;
+}

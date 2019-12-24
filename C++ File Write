@@ -1,0 +1,15 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+    ofstream fout("Out Put File" , ios::out);
+    if(!fout)
+    {
+         cout << "Failed To Open The File" <<endl;
+         exit(1);
+    } 
+    fout<<"Input File Things";
+    fout.close();
+	return 0;  
+}

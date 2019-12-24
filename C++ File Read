@@ -1,0 +1,23 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+    ifstream fin("In Put File" , ios::in);
+    if(!fin)
+    {
+        cout << "Failed To Open The File" << endl;
+        exit(1);
+    } 
+    short X;
+    cin >> X;
+    char Input[X];
+    fin.getline(Input , X);
+    long long I;
+	for(I = 0;I <= X - 1;I++)
+	{
+		cout << Input[I];
+	} 
+    fin.close();
+    return 0;  
+}
